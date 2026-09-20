@@ -1,0 +1,51 @@
+[
+  {
+    "query": "Sau khi Shopee chấp nhận yêu cầu Trả hàng & Hoàn tiền, người mua phải gửi trả sản phẩm trong bao lâu?",
+    "gold_doc_id": "shopee-return-process",
+    "evidence": "6 ngày",
+    "gold_answer": "Nếu Shopee đồng ý cho bạn Trả hàng & Hoàn tiền: Bạn cần chọn hình thức trả hàng và hoàn tất việc gửi trả hàng về kho Shopee/Người bán trong vòng 6 ngày kể từ thời điểm nhận được thông báo gửi trả hàng từ Shopee.",
+    "source_section": "Mục 3"
+  },
+  {
+    "query": "Với đơn hàng thanh toán bằng thẻ tín dụng/ghi nợ, người mua nhận tiền hoàn trong bao lâu?",
+    "gold_doc_id": "shopee-refund-timeline",
+    "evidence": "7 - 14 ngày làm việc",
+    "evidence_all": [
+      "Thẻ tín dụng/ghi nợ",
+      "7 - 14 ngày làm việc"
+    ],
+    "gold_answer": "Thẻ tín dụng/ghi nợ: 7 - 14 ngày làm việc (tùy theo ngân hàng).",
+    "source_section": "Bảng phương thức hoàn tiền"
+  },
+  {
+    "query": "Khi tải bằng chứng cho yêu cầu Trả hàng/Hoàn tiền, dung lượng video tối đa được Shopee quy định là bao nhiêu?",
+    "gold_doc_id": "shopee-return-evidence",
+    "evidence": "Không quá 100 MB/video",
+    "gold_answer": "Dung lượng tối đa: Hình ảnh: Không quá 5MB/ảnh. Video: Không quá 100 MB/video (tối đa 1 phút).",
+    "source_section": "Mục 4"
+  },
+  {
+    "query": "Những nhóm sản phẩm nào không áp dụng lý do trả hàng “Đổi ý”?",
+    "gold_doc_id": "shopee-return-restrictions",
+    "evidence": "không áp dụng lý do trả hàng",
+    "evidence_all": [
+      "không áp dụng lý do trả hàng",
+      "Sức khỏe, Vệ sinh & Đồ cá nhân",
+      "Thực phẩm & Hàng mau hỏng",
+      "Hàng đặc thù trong vận chuyển",
+      "Sản phẩm số và dịch vụ"
+    ],
+    "gold_answer": "Đối với nhóm sản phẩm này, Shopee không áp dụng lý do trả hàng ‘Đổi ý (Sản phẩm còn nguyên tem, nhãn mác, bao bì)’. Các nhóm được liệt kê gồm Sức khỏe, Vệ sinh & Đồ cá nhân; Thực phẩm & Hàng mau hỏng; Hàng đặc thù trong vận chuyển; Sản phẩm số và dịch vụ.",
+    "source_section": "Danh mục sản phẩm hạn chế"
+  },
+  {
+    "query": "Nếu không đồng ý với quyết định hoàn tiền, thời hạn phản hồi của người bán là bao lâu?",
+    "gold_doc_id": "shopee-return-policy-seller",
+    "evidence": "phản hồi trong vòng 2 ngày lịch",
+    "metadata_filter": {
+      "audience": "seller"
+    },
+    "gold_answer": "Người Bán cần phản hồi trong vòng 2 ngày lịch kể từ ngày nhận thông báo nếu không đồng ý với quyết định hoàn tiền; chưa nhận được sản phẩm hoàn trả; sản phẩm không thuộc trường hợp được hoàn; hoặc sản phẩm bị hư hỏng, mất mát trong quá trình hoàn trả.",
+    "source_section": "Thời hạn phản hồi của người bán"
+  }
+]

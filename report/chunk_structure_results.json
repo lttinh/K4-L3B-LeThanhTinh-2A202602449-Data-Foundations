@@ -1,0 +1,41 @@
+{
+  "personal_strategy": "fixed_size",
+  "document_count": 10,
+  "source_characters": 38420,
+  "strategies": {
+    "fixed_500_overlap_50": {
+      "count": 89,
+      "max_length": 500,
+      "over_500": 0,
+      "total_characters": 42370
+    },
+    "recursive_500": {
+      "count": 95,
+      "max_length": 500,
+      "over_500": 0,
+      "total_characters": 38420
+    },
+    "sentence_3": {
+      "count": 73,
+      "max_length": 2492,
+      "over_500": 28,
+      "total_characters": 38195
+    }
+  },
+  "example": {
+    "fixed_500_overlap_50": [
+      "# Phản hồi đề xuất hoàn tiền ngay\n\n[Trả hàng/ Hoàn tiền] Hướng dẫn Người mua trả lời đề xuất Hoàn Tiền Ngay của Người bán | Shopee Trung tâm trợ giúp\n\n[Trả hàng/ Hoàn tiền] Hướng dẫn Người mua trả lời đề xuất Hoàn Tiền Ngay của Người bán\n\nTrong một số trường hợp, khi bạn tạo yêu cầu Trả hàng/Hoàn tiền (THHT), Người bán có thể gửi cho bạn một đề xuất Hoàn tiền ngay (một phần hoặc toàn bộ giá trị đơn hàng).\n\nĐiều này giúp rút ngắn thời gian xử lý và mang lại trải nghiệm nhanh chóng hơn cho bạn. Dư",
+      "à mang lại trải nghiệm nhanh chóng hơn cho bạn. Dưới đây là các bước để phản hồi đề xuất của Người bán:\n\nBước 1: Vào mục Tôi > chọn Trả hàng/Hoàn tiền\n\n> Tại đơn hàng cần phản hồi, chọn Chi tiết Trả hàng Hoàn tiền\n\nBước 2: Kiểm tra kỹ số tiền hoàn mà Người bán đề xuất\n\nTrường hợp 1: Bạn đồng ý với số tiền Người bán đề xuất\n\nChọn Trao đổi thêm\n\nNhấn Đồng ý\n\n> Bạn sẽ nhận được tiền hoàn ngay mà không cần trả hàng\n\n \n\nTrường hợp 2:  Bạn KHÔNG đồng ý với số tiền Người bán đề xuất\n\nBạn có thể chọn 1 ",
+      " với số tiền Người bán đề xuất\n\nBạn có thể chọn 1 trong 2 cách sau:\n\nNhấn Trao đổi thêm để Chat với Người bán nếu cần thương lượng thêm\n\nHOẶC Nhấn Tôi muốn trả hàng để tiếp tục quy trình trả sản phẩm và nhận toàn bộ số tiền theo yêu cầu THHT ban đầu\n\nBạn có thể tìm hiểu thêm các bài viết khác về Trả hàng/Hoàn tiền tại đây."
+    ],
+    "recursive_500": [
+      "# Phản hồi đề xuất hoàn tiền ngay\n\n[Trả hàng/ Hoàn tiền] Hướng dẫn Người mua trả lời đề xuất Hoàn Tiền Ngay của Người bán | Shopee Trung tâm trợ giúp\n\n[Trả hàng/ Hoàn tiền] Hướng dẫn Người mua trả lời đề xuất Hoàn Tiền Ngay của Người bán\n\nTrong một số trường hợp, khi bạn tạo yêu cầu Trả hàng/Hoàn tiền (THHT), Người bán có thể gửi cho bạn một đề xuất Hoàn tiền ngay (một phần hoặc toàn bộ giá trị đơn hàng).\n\n",
+      "Điều này giúp rút ngắn thời gian xử lý và mang lại trải nghiệm nhanh chóng hơn cho bạn. Dưới đây là các bước để phản hồi đề xuất của Người bán:\n\nBước 1: Vào mục Tôi > chọn Trả hàng/Hoàn tiền\n\n> Tại đơn hàng cần phản hồi, chọn Chi tiết Trả hàng Hoàn tiền\n\nBước 2: Kiểm tra kỹ số tiền hoàn mà Người bán đề xuất\n\nTrường hợp 1: Bạn đồng ý với số tiền Người bán đề xuất\n\nChọn Trao đổi thêm\n\nNhấn Đồng ý\n\n> Bạn sẽ nhận được tiền hoàn ngay mà không cần trả hàng\n\n \n\n",
+      "Trường hợp 2:  Bạn KHÔNG đồng ý với số tiền Người bán đề xuất\n\nBạn có thể chọn 1 trong 2 cách sau:\n\nNhấn Trao đổi thêm để Chat với Người bán nếu cần thương lượng thêm\n\nHOẶC Nhấn Tôi muốn trả hàng để tiếp tục quy trình trả sản phẩm và nhận toàn bộ số tiền theo yêu cầu THHT ban đầu\n\nBạn có thể tìm hiểu thêm các bài viết khác về Trả hàng/Hoàn tiền tại đây."
+    ],
+    "sentence_3": [
+      "# Phản hồi đề xuất hoàn tiền ngay\n\n[Trả hàng/ Hoàn tiền] Hướng dẫn Người mua trả lời đề xuất Hoàn Tiền Ngay của Người bán | Shopee Trung tâm trợ giúp\n\n[Trả hàng/ Hoàn tiền] Hướng dẫn Người mua trả lời đề xuất Hoàn Tiền Ngay của Người bán\n\nTrong một số trường hợp, khi bạn tạo yêu cầu Trả hàng/Hoàn tiền (THHT), Người bán có thể gửi cho bạn một đề xuất Hoàn tiền ngay (một phần hoặc toàn bộ giá trị đơn hàng). Điều này giúp rút ngắn thời gian xử lý và mang lại trải nghiệm nhanh chóng hơn cho bạn. Dưới đây là các bước để phản hồi đề xuất của Người bán:\n\nBước 1: Vào mục Tôi > chọn Trả hàng/Hoàn tiền\n\n> Tại đơn hàng cần phản hồi, chọn Chi tiết Trả hàng Hoàn tiền\n\nBước 2: Kiểm tra kỹ số tiền hoàn mà Người bán đề xuất\n\nTrường hợp 1: Bạn đồng ý với số tiền Người bán đề xuất\n\nChọn Trao đổi thêm\n\nNhấn Đồng ý\n\n> Bạn sẽ nhận được tiền hoàn ngay mà không cần trả hàng\n\n \n\nTrường hợp 2:  Bạn KHÔNG đồng ý với số tiền Người bán đề xuất\n\nBạn có thể chọn 1 trong 2 cách sau:\n\nNhấn Trao đổi thêm để Chat với Người bán nếu cần thương lượng thêm\n\nHOẶC Nhấn Tôi muốn trả hàng để tiếp tục quy trình trả sản phẩm và nhận toàn bộ số tiền theo yêu cầu THHT ban đầu\n\nBạn có thể tìm hiểu thêm các bài viết khác về Trả hàng/Hoàn tiền tại đây."
+    ]
+  },
+  "example_doc_id": "shopee-instant-refund"
+}

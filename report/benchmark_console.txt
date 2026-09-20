@@ -1,0 +1,51 @@
+10 documents; 89 chunks; Hit@3=0/5; C:\Users\DELL 5480\Desktop\VinAI\lab07\K4-L3B-LeThanhTinh-2A202602449-Data-Foundations\report\benchmark_results.json
+
+Query 1: Sau khi Shopee chấp nhận yêu cầu Trả hàng & Hoàn tiền, người mua phải gửi trả sản phẩm trong bao lâu?
+Filter: {}
+Gold: Nếu Shopee đồng ý cho bạn Trả hàng & Hoàn tiền: Bạn cần chọn hình thức trả hàng và hoàn tất việc gửi trả hàng về kho Shopee/Người bán trong vòng 6 ngày kể từ thời điểm nhận được thông báo gửi trả hàng từ Shopee.
+  1. score=0.225317 doc_id=shopee-return-process chunk_id=shopee-return-process::chunk-002
+      các thông tin được yêu cầu từ Shopee (nếu có)  2. Hướng dẫn cung cấp bằng chứng cho yêu cầu Trả hàng/Hoàn tiền  Trong quá trình xem xét khiếu nại Trả hàng/ Hoàn tiền, Shopee có th
+  2. score=0.205992 doc_id=shopee-return-conditions chunk_id=shopee-return-conditions::chunk-007
+     ẩm  Khác với mô tả  Sản phẩm có sự khác biệt rõ ràng về chất liệu, màu sắc, thông số, kiểu dáng so với mô tả của người bán  Tất cả sản phẩm  Hàng đã qua sử dụng  Sản phẩm có dấu hi
+  3. score=0.197741 doc_id=shopee-return-process chunk_id=shopee-return-process::chunk-014
+      trang Chi tiết Trả hàng/Hoàn tiền, chọn mục ‘Hãy đánh giá trải nghiệm Trả hàng/Hoàn tiền’ > thực hiện đánh giá > nhấn ‘Gửi’     5.4.  Làm thế nào để theo dõi tình trạng vận chuyển
+
+Query 2: Với đơn hàng thanh toán bằng thẻ tín dụng/ghi nợ, người mua nhận tiền hoàn trong bao lâu?
+Filter: {}
+Gold: Thẻ tín dụng/ghi nợ: 7 - 14 ngày làm việc (tùy theo ngân hàng).
+  1. score=0.328086 doc_id=shopee-return-shipping chunk_id=shopee-return-shipping::chunk-003
+     àng tại Chi tiết Trả hàng/hoàn tiền của đơn hàng đang hoàn trả     Xem chi tiết Cách đóng gói đơn hàng hoàn trả và cách Tra cứu mã vận đơn trả hàng tại đây.  1.2. Lưu ý khi chọn Hì
+  2. score=0.271122 doc_id=shopee-return-policy-seller chunk_id=shopee-return-policy-seller::chunk-005
+     ương lượng qua kênh liên lạc trên hệ thống Shopee. Nếu hai bên không đồng thuận, họ có thể khiếu nại tới cơ quan chức năng và cần thông báo cho Shopee kèm thông tin liên quan.  Khi
+  3. score=0.192744 doc_id=shopee-return-process chunk_id=shopee-return-process::chunk-002
+      các thông tin được yêu cầu từ Shopee (nếu có)  2. Hướng dẫn cung cấp bằng chứng cho yêu cầu Trả hàng/Hoàn tiền  Trong quá trình xem xét khiếu nại Trả hàng/ Hoàn tiền, Shopee có th
+
+Query 3: Khi tải bằng chứng cho yêu cầu Trả hàng/Hoàn tiền, dung lượng video tối đa được Shopee quy định là bao nhiêu?
+Filter: {}
+Gold: Dung lượng tối đa: Hình ảnh: Không quá 5MB/ảnh. Video: Không quá 100 MB/video (tối đa 1 phút).
+  1. score=0.275666 doc_id=shopee-return-conditions chunk_id=shopee-return-conditions::chunk-011
+      nại trên một/ một vài sản phẩm  Mã giảm giá sẽ không được hoàn  Hoàn Xu theo tỷ lệ giá trị sản phẩm.  ⚠️ Lưu ý:  Voucher Shopee Live, Video Voucher, Voucher Người dùng mới Shopee,
+  2. score=0.224611 doc_id=shopee-refund-timeline chunk_id=shopee-refund-timeline::chunk-003
+      ý:   Nếu bạn gửi yêu cầu THHT sau khi đơn cập nhật trạng thái “Hoàn thành” - giao dịch trả góp đã được ghi nhận với ngân hàng: -> Bạn vẫn cần trả góp cho đơn hà
+  3. score=0.175513 doc_id=shopee-refund-timeline chunk_id=shopee-refund-timeline::chunk-005
+     h sách hỗ trợ phí trả hàng  Đối với đơn hàng thanh toán bằng Thẻ Tín dụng/Ghi nợ, Shopee chỉ hỗ trợ hoàn tiền về đúng tài khoản Tín dụng/Ghi nợ đã sử dụng khi thanh toán đơn hàng. 
+
+Query 4: Những nhóm sản phẩm nào không áp dụng lý do trả hàng “Đổi ý”?
+Filter: {}
+Gold: Đối với nhóm sản phẩm này, Shopee không áp dụng lý do trả hàng ‘Đổi ý (Sản phẩm còn nguyên tem, nhãn mác, bao bì)’. Các nhóm được liệt kê gồm Sức khỏe, Vệ sinh & Đồ cá nhân; Thực phẩm & Hàng mau hỏng; Hàng đặc thù trong vận chuyển; Sản phẩm số và dịch vụ.
+  1. score=0.262366 doc_id=shopee-return-conditions chunk_id=shopee-return-conditions::chunk-003
+     oàn tiền của bạn sẽ được phản hồi trong vòng 3-5 ngày làm việc*. Hãy theo dõi mục thông báo trên ứng dụng Shopee để nhanh chóng cập nhật tiến trình xử lý khiếu nại Trả hàng/Hoàn ti
+  2. score=0.234946 doc_id=shopee-return-conditions chunk_id=shopee-return-conditions::chunk-008
+      có dấu hiệu làm giả/nhái sản phẩm thương hiệu nổi tiếng/đã được bảo hộ  Tất cả sản phẩm  Đổi ý (Sản phẩm còn nguyên tem, nhãn mác, bao bì)  Chỉ áp dụng khi sản phẩm trả còn nguyên
+  3. score=0.226130 doc_id=shopee-refund-timeline chunk_id=shopee-refund-timeline::chunk-004
+      trả góp gần nhất.   24 giờ  Bảng 1: Phương thức hoàn tiền và thời gian hoàn tiền theo các phương thức thanh toán trên Shopee     ⚠️ Lưu ý:  Trong quá trình xử lý nếu Người bán
+
+Query 5: Nếu không đồng ý với quyết định hoàn tiền, thời hạn phản hồi của người bán là bao lâu?
+Filter: {'audience': 'seller'}
+Gold: Người Bán cần phản hồi trong vòng 2 ngày lịch kể từ ngày nhận thông báo nếu không đồng ý với quyết định hoàn tiền; chưa nhận được sản phẩm hoàn trả; sản phẩm không thuộc trường hợp được hoàn; hoặc sản phẩm bị hư hỏng, mất mát trong quá trình hoàn trả.
+  1. score=0.013674 doc_id=shopee-return-policy-seller chunk_id=shopee-return-policy-seller::chunk-001
+     sản phẩm bị hư hỏng, mất mát trong quá trình hoàn trả.  Nếu hết thời hạn mà Shopee không nhận được phản hồi, Shopee hiểu rằng Người Bán đồng ý với quyết định xử lý và không có khiế
+  2. score=0.012818 doc_id=shopee-return-policy-seller chunk_id=shopee-return-policy-seller::chunk-003
+     . - Yêu cầu được Shopee chấp nhận hoàn tiền ngay mà không trả hàng. - Đơn giao không thành công thuộc kênh Người Bán Tự Vận Chuyển. - Yêu cầu mà Người Mua chọn hình thức tự sắp xếp
+  3. score=-0.034830 doc_id=shopee-return-policy-seller chunk_id=shopee-return-policy-seller::chunk-002
+     không do lỗi của Người Mua hoặc đơn vị vận chuyển. - Đơn giao không thành công. - Các trường hợp ngoại lệ khác theo quyết định và thông báo của Shopee.  ## Trường hợp người bán khô
